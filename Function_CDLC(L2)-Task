@@ -1,0 +1,145 @@
+What is a function in Excel?
+FUNCTION IS A PREDEFINED FORMUALS THROUGH WHICH WE CAN PERFORM CALCULATION & MATHEMATICAL OPERATIONS IN EXCEL BY PROVIDING INPUT VALUES.
+
+How do you start a function in Excel?
+By using =sum(inputvalue1, inputvalue2)
+
+What is the purpose of using functions in Excel?
+To analyse data OPERATIONS with fast process. also it minimised the manual tasks.
+
+What is the difference between a function and a formula in Excel?
+-Function is predefined formual whereas  A formula (also known as an equation) is something that the user defines, and can use/refer to various functions )in it.
+-A formula begins with an equal sign. Meanwhile, functions are used to perform complex calculations that cannot be done manually.
+-formula is simply a MATHEMATICAL calculation whereas function can be used to handle large calculation via single words and inputs.
+-function use single predefined formual whereas formula can use multiple function.
+
+How can you enter a function manually in a cell?
+By using below format:
+=SUM(A3:B3)
+
+What is the SUM function used for in Excel?
+SUM IS USED TO PERFORM ADDITION OPERATION IN EXCEL.
+
+How do you use the SUM function to add a range of numbers?
+=SUM(A1:C2)
+
+Explain the function of the AVERAGE function in Excel.
+Average Function is used to evaluate average of the data.
+we can use average in excel as:
+=avg(A1:C2)
+
+How do you find the highest value in a range of cells using a function?
+=max(A1:C2)
+
+What function can you use to find the lowest value in a range of cells?
+=min(A1:C2)
+
+How do you use the COUNT function to count the number of cells in a range that contain numbers?
+=count(A1:C2)
+
+What does the MAX function do, and how do you use it?
+MAX will return the largest value in a given list of arguments.
+=max(A1:C2)
+
+What is the purpose of the MIN function in Excel?
+Min will return the lowest value in a given list of arguments.
+=min(A1:C2)
+
+How can you use the IF function to create a simple logical test?
+=IF(C1>120,"max", "min")
+wherein c1> indicated condition & give max result if condition will true(max) else result will be False(min).
+
+What does the CONCATENATE function do, and how is it used?
+ CONCATENATE function aligns two seprate cells value in a single cell as below:
+ =CONCATENATE(C8(text1 to be added with D8),D8(second text))
+
+ Explain the function of the LEFT function in Excel.
+Left gives the output starting from left and provide only those no which we have set in function.
+For ex= from word gargi we want to access starting 3 words then we can use left as below:
+=LEFT("Gargi", 3)
+
+res-Gar
+
+How do you use the RIGHT function to extract characters from a text string?
+Right gives the output starting from Right and provide only those no which we have set in function.
+=Right("Gargi", 3)
+
+res=rgi
+
+What is the purpose of the LEN function, and how do you use it?
+Len gives the lenghth of text.
+ex-
+=Len("Gargi")
+
+How can you use the VLOOKUP function to search for data in a table?
+VLOOKUP function used to  search data vertically from a table.
+vlookup stands for vertical lookup we can use this throigh below formula:
+=vlookup(lookupvalue,table array, column index num, [range lookup])
+
+What does the HLOOKUP function do, and when is it used?
+HLOOKUP function used to  search data horizontally  from a table.
+Hlookup stands for horizontal  lookup we can use this throigh below formula:
+=Hlookup(lookupvalue,table array, column index num, [range lookup])
+
+Explain the function of the DATE function in Excel.
+The DATE function returns the sequential serial number that represents a particular date.
+here is also if we will provide =date(2023,14,2)
+then  system will give 2 feb 2024  (12+2 month will be seprated and 2023 become 2024)
+Same is applicable for negative month
+date(2023,-3,2) it will provide date in 2, september 2022.
+
+How do you use the NOW function to display the current date and time?
+
+The NOW function takes no arguments and requires only empty parentheses. The value returned by the function is a serial number representing a particular date and time in Excel.
+=NOW()
+
+What is the purpose of the TEXT function in Excel?
+Formats a number and converts it to text
+=T()
+
+How do you use the SUMIF function to sum values based on a condition?
+
+The SUMIF function is a premade function in Excel, which calculates the sum of values in a range based on a true or false condition.
+
+=SUMIF(C23:C31,F24,D23:D31)
+C23:C31range  which needs to be find.
+F24 where we will put criteria
+D23:D31 sum range
+
+
+What is the COUNTIF function, and when is it used?
+
+The COUNTIF function is a premade function in Excel, which counts cells as specified.
+
+=COUNTIF(D23:D34,G32)
+ (range, criteria)
+
+
+ Explain the function of the AVERAGEIF function in Excel.
+ The AVERAGEIF function is a premade function in Excel, which calculates the average of a range based on a true or false condition.
+ 
+ =AVERAGEIF(range, criteria, avgrange)
+
+ What is the purpose of the ROUND function, and how do you use it?
+
+ The function will round up a number to a specified number of digits. 
+
+=round(999.22585,3) will give 999.226
+
+
+How do you use the CONCATENATE function to join text from multiple cells?
+=CONCATENATE(A23,B23,C23,D23)
+
+What is the difference between the AND and OR functions in Excel?
+
+ **OR**function returns TRUE if at least one if the arguments evaluates to TRUE, and returns FALSE if all arguments are FALSE, whereas **AND** function is a premade function in Excel, which returns TRUE or FALSE based on two or more conditions
+
+ For and All conditions need to be TRUE for the AND function to return TRUE.
+ -for and we use:
+
+ =AND([logical1], [logical2], ...)
+
+
+=OR([logical1], [logical2], ...)
+
+
